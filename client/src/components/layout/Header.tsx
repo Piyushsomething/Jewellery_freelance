@@ -60,16 +60,16 @@ export default function Header() {
           <div className="flex items-center space-x-4 text-sm">
             <div className="relative hidden md:block">
               <select className="bg-transparent text-muted-foreground border-none focus:ring-0 cursor-pointer">
+                <option>₹ INR</option>
                 <option>$ USD</option>
                 <option>€ EUR</option>
-                <option>£ GBP</option>
               </select>
             </div>
             <span className="hidden md:inline text-muted">|</span>
             <div className="relative">
-              <a href="#account" className="flex items-center text-muted-foreground hover:text-primary transition-colors">
+              <Link href="/account" className="flex items-center text-muted-foreground hover:text-primary transition-colors">
                 <User className="w-4 h-4 mr-1" /> My Account
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -161,18 +161,22 @@ export default function Header() {
             
             <li>
               <Link 
-                href="/collections" 
-                className="text-foreground hover:text-primary pb-2 border-b-2 border-transparent hover:border-primary transition-colors duration-300"
+                href="/about" 
+                className={location === '/about' 
+                  ? "text-primary border-b-2 border-primary pb-2 font-medium" 
+                  : "text-foreground hover:text-primary pb-2 border-b-2 border-transparent hover:border-primary transition-colors duration-300"}
               >
-                Collections
+                About Us
               </Link>
             </li>
             <li>
               <Link 
-                href="/sale" 
-                className="text-destructive hover:text-destructive/80 pb-2 border-b-2 border-transparent hover:border-destructive transition-colors duration-300"
+                href="/contact" 
+                className={location === '/contact' 
+                  ? "text-primary border-b-2 border-primary pb-2 font-medium" 
+                  : "text-foreground hover:text-primary pb-2 border-b-2 border-transparent hover:border-primary transition-colors duration-300"}
               >
-                Sale
+                Contact
               </Link>
             </li>
           </ul>

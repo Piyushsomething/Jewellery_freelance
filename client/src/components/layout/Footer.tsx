@@ -63,11 +63,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="text-primary mt-1 mr-2 w-5 h-5" />
-                <span className="text-muted-foreground">123 Luxury Avenue, New York, NY 10001, USA</span>
+                <span className="text-muted-foreground">123 Luxury Avenue, Mumbai, Maharashtra 400001, India</span>
               </li>
               <li className="flex items-center">
                 <Phone className="text-primary mr-2 w-5 h-5" />
-                <a href="tel:+12345678901" className="text-muted-foreground hover:text-primary transition-colors">+1 (234) 567-8901</a>
+                <a href="tel:+919876543210" className="text-muted-foreground hover:text-primary transition-colors">+91 9876 543 210</a>
               </li>
               <li className="flex items-center">
                 <Mail className="text-primary mr-2 w-5 h-5" />
@@ -75,7 +75,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Clock className="text-primary mr-2 w-5 h-5" />
-                <span className="text-muted-foreground">Mon-Fri: 9am-7pm, Sat: 10am-5pm</span>
+                <span className="text-muted-foreground">Mon-Sat: 10am-8pm IST</span>
               </li>
             </ul>
           </div>
@@ -84,7 +84,7 @@ export default function Footer() {
         <div className="border-t border-border py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-              © 2024 EleganceJewels. All rights reserved.
+              © 2024 EleganceJewels. All rights reserved. Designed by Piyush.
             </p>
             <div className="flex items-center space-x-6">
               <img src="https://via.placeholder.com/40x25?text=Visa" alt="Visa" className="h-6" />
