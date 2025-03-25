@@ -138,11 +138,11 @@ export default function AboutUs() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto">
-                <img 
+                {/* <img 
                   src="https://images.unsplash.com/photo-1579591919791-0e3737ae3808?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" 
                   alt="XYZ - Founder of Elegance Jewels" 
                   className="w-full h-full object-cover"
-                />
+                /> */}
               </div>
               <h3 className="text-xl font-medium">XYZ</h3>
               <p className="text-muted-foreground">Founder of Elegance Jewels</p>
@@ -150,11 +150,11 @@ export default function AboutUs() {
             
             <div className="text-center">
               <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto">
-                <img 
+                {/* <img 
                   src="https://images.unsplash.com/photo-1667630232578-9a07790da789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
                   alt="Piyush - Sr. Full Stack Developer" 
                   className="w-full h-full object-cover"
-                />
+                /> */}
               </div>
               <h3 className="text-xl font-medium">Piyush</h3>
               <p className="text-muted-foreground">Sr. Full Stack Developer</p>
@@ -162,11 +162,11 @@ export default function AboutUs() {
             
             <div className="text-center">
               <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto">
-                <img 
+                {/* <img 
                   src="https://images.unsplash.com/photo-1594839538288-a37dfac45988?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
                   alt="Mohammad Kaif - Developer" 
                   className="w-full h-full object-cover"
-                />
+                /> */}
               </div>
               <h3 className="text-xl font-medium">Mohammad Kaif</h3>
               <p className="text-muted-foreground">Developer</p>

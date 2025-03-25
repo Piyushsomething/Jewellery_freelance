@@ -84,15 +84,15 @@ export default function Footer() {
         <div className="border-t border-border py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-              © 2024 EleganceJewels. All rights reserved. Designed by Piyush.
+              © 2025 EleganceJewels. All rights reserved. Designed by Piyush.
             </p>
-            <div className="flex items-center space-x-6">
+            {/* <div className="flex items-center space-x-6">
               <img src="https://via.placeholder.com/40x25?text=Visa" alt="Visa" className="h-6" />
               <img src="https://via.placeholder.com/40x25?text=MC" alt="Mastercard" className="h-6" />
               <img src="https://via.placeholder.com/40x25?text=Amex" alt="American Express" className="h-6" />
               <img src="https://via.placeholder.com/40x25?text=PP" alt="PayPal" className="h-6" />
               <img src="https://via.placeholder.com/40x25?text=Apple" alt="Apple Pay" className="h-6" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

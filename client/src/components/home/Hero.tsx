@@ -11,7 +11,7 @@ export default function Hero() {
       />
       <div className="container mx-auto px-6 relative z-20 h-full flex flex-col justify-center">
         <h1 className="text-4xl md:text-6xl font-playfair font-bold text-foreground mb-4">
-          New Collection <span className="text-primary">Of 2024</span>
+          New Collection <span className="text-primary">Of 2025</span>
         </h1>
         <p className="text-xl md:text-2xl text-foreground max-w-lg mb-8">
           Thousands of designs for selection, wholesale prices, low minimum quantity, premium quality.
