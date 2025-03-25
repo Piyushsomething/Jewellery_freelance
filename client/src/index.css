@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  :root {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 97%;
+    
+    --card: 0 0% 14%;
+    --card-foreground: 0 0% 97%;
+    
+    --popover: 0 0% 14%;
+    --popover-foreground: 0 0% 97%;
+    
+    --primary: 43 74% 49%;
+    --primary-foreground: 0 0% 10%;
+    
+    --secondary: 0 0% 97%;
+    --secondary-foreground: 0 0% 10%;
+    
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 65%;
+    
+    --accent: 0 0% 14%;
+    --accent-foreground: 0 0% 97%;
+    
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 97%;
+    
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 75%;
+    
+    --radius: 0.5rem;
+  }
+
+  .light {
+    --background: 0 0% 97%;
+    --foreground: 0 0% 10%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    
+    --primary: 43 74% 49%;
+    --primary-foreground: 0 0% 97%;
+    
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 97%;
+    
+    --muted: 0 0% 92%;
+    --muted-foreground: 0 0% 45%;
+    
+    --accent: 0 0% 92%;
+    --accent-foreground: 0 0% 10%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 97%;
+    
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 0 0% 40%;
+  }
+
+  body {
+    @apply font-montserrat antialiased bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary;
+  }
+
+  /* Custom transitions */
+  .product-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .product-card:hover {
+    transform: translateY(-8px);
+    @apply shadow-xl;
+  }
+
+  .category-card-image {
+    transition: transform 0.5s ease;
+  }
+
+  .category-card:hover .category-card-image {
+    transform: scale(1.05);
+  }
+
+  /* Custom button styles */
+  .gold-btn {
+    @apply bg-primary text-primary-foreground hover:bg-transparent hover:text-primary border border-transparent hover:border-primary transition-colors duration-300;
+  }
+
+  .outline-gold-btn {
+    @apply bg-transparent border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300;
+  }
+}
