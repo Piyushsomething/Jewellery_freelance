@@ -10,6 +10,9 @@ import ProductDetail from "@/pages/ProductDetail";
 import Cart from "@/pages/Cart";
 import Checkout from "@/pages/Checkout";
 import NotFound from "@/pages/not-found";
+import AboutUs from "@/pages/AboutUs";
+import Contact from "@/pages/Contact";
+import Account from "@/pages/Account";
 import CartDrawer from "@/components/cart/CartDrawer";
 import { useCartContext } from "@/lib/contexts/CartContext";
 
@@ -22,6 +25,9 @@ function Router() {
       <Route path="/product/:slug" component={ProductDetail} />
       <Route path="/cart" component={Cart} />
       <Route path="/checkout" component={Checkout} />
+      <Route path="/about" component={AboutUs} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/account" component={Account} />
       <Route component={NotFound} />
     </Switch>
   );
