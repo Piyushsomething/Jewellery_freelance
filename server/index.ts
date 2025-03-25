@@ -54,6 +54,10 @@ app.use((req, res, next) => {
     await setupVite(app, server);
   } else {
     serveStatic(app);
+    // Add this fallback route for client-side routing
+    app.get('*', (req, res) => {
+      res.sendFile('index.html', { root: './dist/public' });
+    });
   }
 
   // ALWAYS serve the app on port 5000
