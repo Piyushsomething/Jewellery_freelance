@@ -40,8 +40,7 @@ export default function Footer() {
               <li><Link href="/" className="text-muted-foreground hover:text-primary transition-colors">Home</Link></li>
               <li><Link href="/about" className="text-muted-foreground hover:text-primary transition-colors">About Us</Link></li>
               <li><Link href="/catalog" className="text-muted-foreground hover:text-primary transition-colors">Shop All</Link></li>
-              <li><Link href="/collections" className="text-muted-foreground hover:text-primary transition-colors">Collections</Link></li>
-              <li><Link href="/blog" className="text-muted-foreground hover:text-primary transition-colors">Blog</Link></li>
+              
               <li><Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -50,11 +49,11 @@ export default function Footer() {
             <h3 className="text-lg font-medium text-foreground mb-6">Customer Service</h3>
             <ul className="space-y-3">
               <li><Link href="/account" className="text-muted-foreground hover:text-primary transition-colors">My Account</Link></li>
-              <li><Link href="/track-order" className="text-muted-foreground hover:text-primary transition-colors">Track Your Order</Link></li>
-              <li><Link href="/shipping-returns" className="text-muted-foreground hover:text-primary transition-colors">Shipping & Returns</Link></li>
-              <li><Link href="/faq" className="text-muted-foreground hover:text-primary transition-colors">FAQs</Link></li>
-              <li><Link href="/size-guide" className="text-muted-foreground hover:text-primary transition-colors">Size Guide</Link></li>
-              <li><Link href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/" className="text-muted-foreground hover:text-primary transition-colors">Track Your Order</Link></li>
+              <li><Link href="/" className="text-muted-foreground hover:text-primary transition-colors">Shipping & Returns</Link></li>
+              <li><Link href="/" className="text-muted-foreground hover:text-primary transition-colors">FAQs</Link></li>
+              <li><Link href="/" className="text-muted-foreground hover:text-primary transition-colors">Size Guide</Link></li>
+              <li><Link href="/" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link></li>
             </ul>
           </div>
 
